@@ -1,12 +1,3 @@
-# ReactPlayground
-
----
-
-## Day 1: ReactJS – Controlled vs Uncontrolled Components
-
-### Controlled Components
-
-```tsx
 import { useRef, useState, type FormEvent } from "react";
 
 const ControlledForm = () => {
@@ -40,11 +31,7 @@ const ControlledForm = () => {
     </form>
   );
 };
-```
 
-### Uncontrolled Components
-
-```tsx
 const UncontrolledForm = () => {
   const nameRef = useRef<HTMLInputElement>(null);
 
@@ -71,4 +58,15 @@ const UncontrolledForm = () => {
     </form>
   );
 };
-```
+
+const Day1 = () => {
+  return (
+    <div>
+      <h3>Day 1</h3>
+      <ControlledForm />
+      <UncontrolledForm />
+    </div>
+  );
+};
+
+export default Day1;
