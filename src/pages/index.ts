@@ -1,4 +1,5 @@
-import Day1 from "./Day1";
-import DayList from "./DayList";
+import Beginner from "./Beginner";
+import Home from "./Home";
+import Intermediate from "./Intermediate";
 
-export { Day1, DayList };
+export { Beginner, Home, Intermediate };
